@@ -1,0 +1,8 @@
+md5-imgs is a little script I did to find duplicates in my directories.
+
+Use the script is really simple, just drop a line like:
+  $ md5-imgs.rb <directory to check>
+
+By default the script doesn't write anything to the disk, if you want to delete duplicates you have to set DELETE_DUPLICATES variable to 'true'.
+
+The script calculates md5 of files and uses them to check duplicates. It's really (really really) difficult a false positive but it's still possible.
